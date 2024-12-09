@@ -1,95 +1,106 @@
-# VSCode Color Picker Extension
+# 🎨 VSCode Color Picker
 
-这个 VSCode 插件可以自动识别文本中的十六进制颜色代码（如 #7ee787），并提供以下功能：
+## Quick Overview
 
-1. 在颜色代码旁边显示颜色预览
-2. 点击颜色代码时可以打开颜色选择器进行调整
+A powerful, intuitive color picker extension for Visual Studio Code that transforms how developers work with color values across multiple file types.
 
-## 功能
+![1733747885201](images/1733747885201.png)
 
-- 自动识别文本中的十六进制颜色代码
-- 在颜色代码旁边显示颜色预览块
-- 支持通过颜色选择器修改颜色
-- 实时更新颜色预览
+## 🌟 Key Features
 
-## 使用方法
+- **Interactive Color Selection**: Seamlessly pick and modify colors with an intuitive RGB slider interface
+- **Multi-Language Support**: Works across JSON, JavaScript, TypeScript, CSS, and HTML
+- **Real-Time Preview**: Instantly see color changes before confirming
+- **Keyboard Shortcut**: Quick access with `Ctrl+Alt+C` / `Cmd+Alt+C`
 
-1. 在任何文本文件中，当输入形如 #RRGGBB 的颜色代码时，会自动在旁边显示颜色预览
-2. 将光标放在颜色代码上，按下 `F1` 或 `Ctrl+Shift+P`，然后输入 "Pick Color" 来打开颜色选择器
-3. 在颜色选择器中调整颜色，确认后会自动更新颜色代码
+## 🚀 Installation
 
-## 支持的文件类型
+### From VSCode Marketplace
 
-- JSON
-- JavaScript
-- TypeScript
-- CSS
-- HTML
-- 其他文本文件
-
-## 安装方法
-
-1. 克隆此仓库
-2. 运行 `npm install`
-3. 按 F5 在新窗口中调试
-4. 或者运行 `npm run compile` 后将整个文件夹复制到 VSCode 扩展目录
-
-## English README
-
-### Color Picker VSCode Extension
-
-#### Overview
-Color Picker is a powerful VSCode extension that enhances your color editing experience by providing an intuitive, built-in color selection interface.
-
-#### Features
-- Interactive Color Picker
-- Supports Hex Color Codes
-- Works with Multiple File Types
-- Real-time Color Preview
-
-#### Supported File Types
-- JSON
-- JavaScript
-- TypeScript
-- CSS
-- HTML
-
-#### Installation
-1. Open VSCode
+1. Open Visual Studio Code
 2. Go to Extensions (Ctrl+Shift+X)
 3. Search for "Color Picker"
-4. Click Install
+4. Click **Install**
 
-#### Usage
-##### Picking a Color
-1. Place your cursor on a hex color code (e.g., `#FF0000`)
-2. Use one of these methods to open the Color Picker:
+### Manual Installation
+
+```bash
+ext install color-picker-extension
+```
+
+## 💡 Usage
+
+### Selecting a Color
+
+1. Place your cursor on an existing hex color code (e.g., `#FF0000`)
+2. Trigger the Color Picker:
    - Press `Ctrl+Alt+C` (Windows/Linux)
    - Press `Cmd+Alt+C` (macOS)
    - Open Command Palette (Ctrl+Shift+P) and type "Pick Color"
 
-##### Color Picker Interface
-- Use RGB sliders to adjust color
+### Color Picker Interface
+
+- Adjust colors using intuitive RGB sliders
 - See real-time color preview
 - Confirm color by clicking "Confirm"
 
-#### Keyboard Shortcut
-- `Ctrl+Alt+C` (Windows/Linux)
-- `Cmd+Alt+C` (macOS)
+## 🔧 Supported File Types
 
-#### Requirements
-- VSCode 1.85.0 or higher
+- JSON
+- JavaScript
+- TypeScript
+- CSS
+- HTML
 
-#### Known Issues
-- Only supports 6-digit hex color codes
-- Works best with standard color formats
+## 🌈 Color Format Support
 
-#### Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
+- 6-digit Hexadecimal Color Codes (e.g., `#FF0000`)
 
-#### License
-MIT
+## 🖥️ System Requirements
 
-#### Release Notes
-##### 0.0.1
-- Initial release of Color Picker extension
+- Visual Studio Code 1.85.0 or higher
+- Windows, macOS, or Linux
+
+## 🐛 Troubleshooting
+
+- Ensure the color code is a standard 6-digit hex format
+- Restart VSCode if the extension doesn't appear to work
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+### How to Contribute
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📋 Roadmap
+
+- [ ] Support for 8-digit hex colors (with alpha)
+- [ ] Additional color format support (RGB, HSL)
+- [ ] Custom color palette saving
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## 🏷️ Version History
+
+### [0.1.0] - Initial Release
+
+- Basic color picker functionality
+- Support for 6-digit hex colors
+- Multi-language file support
+
+## 💌 Feedback
+
+Found a bug? Have a suggestion?
+
+- Open an issue on GitHub
+- Email: support@colorpicker.dev
+
+**Happy Coding! 🚀**
